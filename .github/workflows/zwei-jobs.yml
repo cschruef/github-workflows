@@ -6,7 +6,7 @@ jobs:
   vorbereiten:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Job 1: Vorbereitung laeuft"
+     # - run: echo "Job 1: Vorbereitung laeuft"
   arbeiten:
     runs-on: ubuntu-latest
     needs: vorbereiten
